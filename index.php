@@ -63,7 +63,7 @@ if (session_status() != PHP_SESSION_ACTIVE) session_start(); //открыть с
     </main>
 
 
-    <script>
+    <!-- <script>
         document.addEventListener("DOMContentLoaded", function(){
 
             const signup_form = document.getElementById('signup_form');
@@ -147,7 +147,8 @@ if (session_status() != PHP_SESSION_ACTIVE) session_start(); //открыть с
                 
             });
         });
-    </script>
+    </script> -->
+    <script src="js/script.js"></script>
     
 </body>
 </html>
